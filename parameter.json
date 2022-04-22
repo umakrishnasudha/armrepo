@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "devVnet1"
+    },
+    "vnetAddressPrefix": {
+      "value": "15.0.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "15.0.0.0/24"
+    },
+    "subnet1Name": {
+      "value": "devsubnet1"
+    },
+    "subnet2Prefix": {
+      "value": "15.0.1.0/24"
+    },
+    "subnet2Name": {
+      "value": "devsubnet2"
+    },
+    "subnet3Prefix": {
+      "value": "15.0.2.0/24"
+    },
+    "subnet3Name": {
+      "value": "devsubnet3"
+    },
+    "location": {
+      "value": "eastus"
+    }
+  }
+}
